@@ -1,5 +1,4 @@
-*{
-
+* {
   padding: 0%;
   margin: 0%;
 }
@@ -7,33 +6,34 @@ body {
   background-color: rgb(15, 15, 15);
   margin-left: 22pc;
   margin-top: 13px;
+  display: flex;
+  align-content: space-between;
 }
 
-
-.Block{
+.Block {
   background-color: aqua;
   width: 180px;
   height: 180px;
-  border: 3px solid rgb(255, 255, 255);
+  border: 3px solid rgb(255, 0, 0);
   background-size: cover;
   display: inline-block;
   border-radius: 20px;
   align-content: space-evenly;
 }
 
-.mark2{
-  background-image: url('images/dot.png');
+.mark2 {
+  background-image: url("images/dot.png");
 }
 
-.mark1{
-  background-image: url('images/cross.png');
+.mark1 {
+  background-image: url("images/cross.png");
 }
-.h{
+.h {
   color: rgb(0, 0, 0);
   padding-top: 1pc;
   padding-bottom: 1pc;
   border-radius: 50px;
-  margin: 15px 15px ;
+  margin: 15px 15px;
   border: solid aqua;
   background-color: rgb(119, 156, 173);
   height: inherit;
@@ -43,25 +43,26 @@ body {
 /* .............................................................................................. */
 @media only screen and (max-width: 600px) {
   body {
+    display: flex;
+    align-content: space-between;
     background-color: rgb(15, 15, 15);
     margin-left: 13px;
     margin-top: 13px;
   }
 
-  .Block{
+  .Block {
     background-color: aqua;
     width: 100px;
     height: 100px;
-    border: 3px solid rgb(252, 252, 252);
+    border: 3px solid rgb(255, 0, 0);
     background-size: cover;
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 10px;
     align-content: space-evenly;
     margin: 2px 2px;
   }
-  .h{
+  .h {
     width: fit-content;
     text-align: center;
   }
-
 }
