@@ -5,6 +5,7 @@ import { useState } from 'react'
 function App() {
   return (
     <div className="App">
+      <h2 className='h'>Tic Tac Toe Game Note Pad</h2>
       <Board></Board>
     </div>
   );
